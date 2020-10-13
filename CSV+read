@@ -1,6 +1,6 @@
 import csv
 
 with open('filnam.csv') as f:
-  self.csvdat=[]
+  csvdat=[]
   for row in csv.reader(f):
-    self.csvdat.append(row)
+    csvdat.append(row)
