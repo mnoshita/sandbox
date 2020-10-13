@@ -1,5 +1,6 @@
 import getenc
 
 filnam='text.txt'
-enc = getenc.getEncode('text.txt')
-with open('u.csv', 'r', encoding=enc) as csvfile:
+enc = getenc.getEncode(filnam)
+with open(filnam, 'r', enc) as fp:
+  
