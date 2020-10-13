@@ -1,0 +1,6 @@
+import  string
+
+string.whitespace  # ホワイト
+スペース
+
+
