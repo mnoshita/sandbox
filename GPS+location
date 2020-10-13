@@ -3,7 +3,7 @@ import location as loc
 
 loc.start_updates()
 gpsloc=loc.get_location()
-loc.stop_updates
+loc.stop_updates()
 
 
 
