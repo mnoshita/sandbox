@@ -1,0 +1,8 @@
+import csv
+
+with open('sample.csv') as cfp:
+    csvfil = csv.reader(cfp)
+    
+    dat=[]
+    for row in csvfil:
+      dat.append(row)
