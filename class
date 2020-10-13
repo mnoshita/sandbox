@@ -1,7 +1,9 @@
 class Name:
   def __init__(self):
-  self.name￼='namae'
+    self.name￼='namae'
 
+  def print(self):
+    print('name='+self.name)
 
 if __name__ == '__main__':
   tmp=Name
